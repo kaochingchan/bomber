@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#gamePage_bg {
+  width: 2160px;
+  height: 3840px;
+  position: relative;
+  z-index: 0;
+}
+
+#finishPage {
+  width: 2160px;
+  height: 3840px;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  display: none;
+}
+#diamond_block {
+  position: absolute;
+  width: 570.6655px;
+  height: 261.7817px;
+  top: 363.1px;
+  left: 168.4px;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bomb_block {
+  position: absolute;
+  width: 570.6655px;
+  height: 261.7817px;
+  top: 363.1px;
+  left: 1430.8942px;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #diamondnumber,
+#bombnumber {
+  font-size: 150px;
+  font-weight: bold;
+  color: white;
+} */
+span {
+  font-size: 150px;
+  font-weight: bold;
+  color: white;
+}
+
+#btn_block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 2058px;
+  height: 2058px;
+  position: absolute;
+  z-index: 1;
+  top: 1731px;
+  left: 51.3833px;
+  background-color: bisque;
+}
+
+.btn {
+  width: 686px;
+  height: 686px;
+  cursor: pointer;
+}
+
+#warningBlock {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2160px;
+  height: 3840px;
+  display: block;
+  z-index: 10;
+  display: none;
+}
+
+#warningPage_bg {
+  position: absolute;
+  z-index: 10;
+  width: 2160px;
+  height: 3840px;
+  top: 0;
+  left: 0;
+}
+
+#reliveBtn {
+  position: absolute;
+  z-index: 11;
+  width: 919.0904px;
+  height: 422.0023px;
+  left: 620.6772px;
+  top: 2300.9078px;
+  cursor: pointer;
+}
+
+#reliveBtn:hover {
+  transform: scale(1.05);
+}
+
+#startingBlock {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2160px;
+  height: 3840px;
+  display: block;
+  z-index: 13;
+}
+
+#startingPage_bg {
+  position: absolute;
+  z-index: 12;
+  width: 2160px;
+  height: 3840px;
+  top: 0;
+  left: 0;
+}
+
+#startingPage_Btn {
+  position: absolute;
+  z-index: 12;
+  width: 1146px;
+  height: 526px;
+  left: 506px;
+  top: 2962px;
+  cursor: pointer;
+}
+
+#startingPage_Btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
