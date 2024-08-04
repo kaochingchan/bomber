@@ -53,6 +53,7 @@ span {
   font-size: 150px;
   font-weight: bold;
   color: white;
+  font-family: sans-serif;
 }
 
 #btn_block {
@@ -114,12 +115,12 @@ span {
   width: 2160px;
   height: 3840px;
   display: block;
-  z-index: 13;
+  z-index: 15;
 }
 
 #startingPage_bg {
   position: absolute;
-  z-index: 12;
+  z-index: 14;
   width: 2160px;
   height: 3840px;
   top: 0;
@@ -128,7 +129,7 @@ span {
 
 #startingPage_Btn {
   position: absolute;
-  z-index: 12;
+  z-index: 14;
   width: 1146px;
   height: 526px;
   left: 506px;
@@ -138,5 +139,74 @@ span {
 
 #startingPage_Btn:hover {
   cursor: pointer;
+  transform: scale(1.05);
+}
+
+/* 規則頁 */
+
+#ruleBlock {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2160px;
+  height: 3840px;
+  display: block;
+  z-index: 13;
+}
+
+#rulePage {
+  position: absolute;
+  z-index: 13;
+  width: 2160px;
+  height: 3840px;
+  top: 0;
+  left: 0;
+}
+
+#rulePage_Btn {
+  position: absolute;
+  z-index: 13;
+  width: 1146px;
+  height: 526px;
+  top: 2101.5px;
+  left: 506.7915px;
+  cursor: pointer;
+}
+
+#rulePage_Btn:hover {
+  transform: scale(1.05);
+}
+
+#resume_block {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 2058px;
+  height: 2058px;
+  position: absolute;
+  z-index: 13;
+  top: 1731px;
+  left: 51.3833px;
+  background-color: rgba(0, 0, 0, 0.372);
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#resume_Btn {
+  z-index: 13;
+  width: 927.4865px;
+  height: 425.9992px;
+  cursor: pointer;
+}
+
+#resume_Btn:hover {
   transform: scale(1.05);
 }

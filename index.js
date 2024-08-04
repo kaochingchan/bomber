@@ -94,8 +94,13 @@ document.querySelectorAll(".diamond").forEach((img) => {
         setTimeout(() => {
           //備用提案
           // document.getElementById("startingBlock").style.display = "block";
+          document.getElementById("resume_block").style.display = "flex";
+        }, 1500);
+        setTimeout(() => {
+          //備用提案
+          // document.getElementById("startingBlock").style.display = "block";
           window.location.href = "index.html";
-        }, 10000);
+        }, 12000);
       }
       // 播放點擊音效
       playClickSound();
@@ -107,6 +112,18 @@ document.querySelectorAll(".diamond").forEach((img) => {
 document.getElementById("reliveBtn").addEventListener("click", function () {
   document.getElementById("warningBlock").style.display = "none";
   playClickSound();
+});
+
+// 點擊 ruleBtn 後隱藏 ruleBlock
+document.getElementById("rulePage_Btn").addEventListener("click", function () {
+  document.getElementById("ruleBlock").style.display = "none";
+  playClickSound();
+});
+
+// 點擊 resume_Btn 回到起始頁
+document.getElementById("resume_Btn").addEventListener("click", function () {
+  playClickSound();
+  window.location.href = "index.html";
 });
 
 //hover變色
